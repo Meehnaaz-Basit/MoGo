@@ -1,0 +1,455 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .common-start {
+    width: 100%;
+  }
+  .common-start h5 {
+    font-size: 2rem;
+  }
+  .common-start h2 {
+    font-size: 2.4rem;
+  }
+  .common-start p {
+    padding-top: 30px;
+  }
+  /* header */
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-link.active::after,
+  .navbar-nav .show > .nav-link {
+    width: 50px;
+  }
+  .navbar-nav .nav-link .navbar-nav .nav-link.active::before,
+  .navbar-nav .show > .nav-link {
+    width: 0px;
+  }
+  /* header ends */
+  /* slider */
+  .slider-section {
+    min-height: 550px;
+  }
+  .carousel-caption h3 {
+    font-size: 3rem;
+  }
+  .carousel-caption h1 {
+    font-size: 5rem;
+    line-height: 60px;
+  }
+  .slider-btn {
+    font-size: 1.6rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+  }
+  /* slider ends */
+  /* about */
+  .about-section {
+    padding: 100px 0 60px;
+  }
+  .about-part {
+    margin-top: 14px;
+  }
+  /* about ends */
+  /* number */
+  .number-item {
+    padding: 10px 0px;
+  }
+  .number-item h2 {
+    font-size: 5rem;
+  }
+  /* number ends */
+  /* service about */
+  .service-section {
+    padding: 60px 0;
+  }
+  .service-part {
+    margin-top: 10px;
+  }
+  .service-item {
+    padding: 20px 10px;
+    margin: 30px 24px 0;
+  }
+  /* service about ends */
+  /* design */
+  .design-section {
+    min-height: 90vh;
+  }
+  /* design ends */
+  /* service-right */
+  .service-right {
+    margin-top: 25px;
+  }
+  /*  */
+  /* testimonial */
+  .testimonial-section {
+    padding: 40px 0 40px;
+  }
+  .inner-test {
+    flex-direction: column;
+  }
+  .test-pic {
+    width: 100px;
+  }
+  .test-info {
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .inner-test {
+    padding: 0px 38px;
+  }
+  .test-info p {
+    font-size: 1.4rem;
+  }
+  .name-testi h3 {
+    font-size: 2rem;
+  }
+  /* testimonial ends */
+  /* logo */
+  .logo-img {
+    width: 140px;
+    margin: 0 auto;
+  }
+  /* logo ends */
+  /* client  */
+  .client-items {
+    flex-direction: column;
+    padding: 20px 0px 0;
+    margin: 35px 10px 0;
+    align-items: center;
+    text-align: center;
+  }
+  .client-row {
+    padding-top: 0px;
+  }
+  .client-info {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .client-horizontal {
+    width: 50px;
+    margin: 14px auto 10px;
+  }
+  .client-pic {
+    width: 100px;
+    margin: 0 auto;
+  }
+  /* client ends */
+  /* footer */
+  .foot-social {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .social-icon-foot ul {
+    margin: 0;
+    padding: 0 0px;
+  }
+  .input-foot input {
+    width: 100%;
+  }
+  .foot-btn {
+    position: static;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .foot-btn button {
+    font-size: 1.4rem;
+    padding: 10px 26px;
+  }
+  .foot-insta,
+  .foot-blog {
+    padding-top: 40px;
+  }
+  .foot-blog-pic {
+    width: 200px;
+    margin-right: 0px;
+  }
+  .foot-blog-info {
+    margin-left: 20px;
+  }
+  .foot-blog-info h6 {
+    font-size: 1.2rem;
+  }
+  .foot-insta-pic {
+    width: 280px;
+  }
+  /* footer ends */
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .common-start {
+    width: 100%;
+  }
+  /* header */
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-link.active::after,
+  .navbar-nav .show > .nav-link {
+    width: 50px;
+  }
+  .navbar-nav .nav-link .navbar-nav .nav-link.active::before,
+  .navbar-nav .show > .nav-link {
+    width: 0px;
+  }
+  /* header ends */
+  /* slider */
+  .slider-section {
+    min-height: 670px;
+  }
+  .carousel-caption h3 {
+    font-size: 4rem;
+  }
+  .carousel-caption h1 {
+    font-size: 9rem;
+    line-height: 110px;
+  }
+  /* slider ends */
+  /* about */
+  .about-section {
+    padding: 120px 0 60px;
+  }
+  .about-part {
+    margin-top: 16px;
+  }
+  .about-item {
+    margin: 35px 80px 0;
+  }
+  /* about end */
+  /* number */
+  .number-item {
+    padding: 25px 0;
+  }
+  .number-item h2 {
+    font-size: 5rem;
+  }
+  /* number end */
+  /* service */
+  .service-part {
+    margin-top: 20px;
+  }
+  .service-item {
+    padding: 30px 47px;
+    margin: 50px 24px 0;
+  }
+  /* service end */
+  /* design */
+  .design-section {
+    min-height: 800px;
+  }
+  /* design end */
+  .service-section {
+    padding: 110px 0 60px;
+  }
+  .service-right {
+    margin-top: 40px;
+  }
+  /* test */
+  .inner-test {
+    flex-direction: column;
+    text-align: center;
+  }
+  .test-pic {
+    width: 120px;
+  }
+  .test-info {
+    margin: 15px 20px 0;
+  }
+  .inner-test {
+    padding: 0px 50px;
+    text-align: center;
+  }
+  .team-person {
+    margin-top: 20px;
+  }
+  /* test end */
+  /* port */
+  .pic-item {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .blog-pic {
+    margin: 0 auto;
+  }
+  /* port end */
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .common-start {
+    width: 100%;
+  }
+  /* header */
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-link.active::after,
+  .navbar-nav .show > .nav-link {
+    width: 50px;
+  }
+  .navbar-nav .nav-link .navbar-nav .nav-link.active::before,
+  .navbar-nav .show > .nav-link {
+    width: 0px;
+  }
+  /* header ends */
+  .slider-section {
+    min-height: 740px;
+  }
+  /* about */
+  .about-item {
+    margin: 28px auto;
+    width: 378px;
+  }
+  /* about end */
+  /* number */
+  .number-item {
+    padding: 20px 0;
+  }
+  /* number end */
+  /* service */
+  .service-body {
+    width: 584px;
+    margin: 0 auto;
+  }
+  .service-left {
+    margin-bottom: 20px;
+  }
+  /* service end */
+  /* test */
+  .inner-test {
+    padding: 0px 58px;
+  }
+  .test-pic {
+    width: 364px;
+    margin-left: 20px;
+  }
+  .pic-item {
+    width: 480px;
+    margin: 0 auto;
+  }
+  /* test end */
+  /* blog */
+  .blog-item {
+    margin: 22px auto;
+    padding: 20px;
+    width: 420px;
+  }
+  /* blog end */
+  /* foot */
+  .foot-blog-item {
+    width: 550px;
+    margin: 0 auto 20px;
+  }
+  .foot-insta-pic {
+    width: 470px;
+  }
+  .foot-insta,
+  .foot-blog {
+    margin-top: 40px;
+  }
+  /* foot end */
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .common-start {
+    width: 100%;
+  }
+  /* header */
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-link.active::after,
+  .navbar-nav .show > .nav-link {
+    width: 50px;
+  }
+  .navbar-nav .nav-link .navbar-nav .nav-link.active::before,
+  .navbar-nav .show > .nav-link {
+    width: 0px;
+  }
+  /* header ends */
+  .slider-section {
+    min-height: 740px;
+  }
+  /* services */
+  .service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 22px;
+  }
+  .service-icon {
+    margin-bottom: 20px;
+  }
+  .service-info {
+    margin-left: 0px;
+  }
+
+  /* services end */
+  /* drop down */
+  .acc-body {
+    height: 160px;
+  }
+  /* drop down end */
+  /* test */
+  .inner-test {
+    padding: 0px 135px;
+  }
+  /* test end */
+  /* blog */
+  .blog-item {
+    margin: 22px 8px;
+  }
+  /* blog end */
+  /* foot */
+  .foot-insta,
+  .foot-blog {
+    margin-top: 48px;
+  }
+  /* foot end */
+}
+/* Extra Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .common-start {
+    width: 100%;
+  }
+  /* header */
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-link.active::after,
+  .navbar-nav .show > .nav-link {
+    width: 50px;
+  }
+  .navbar-nav .nav-link .navbar-nav .nav-link.active::before,
+  .navbar-nav .show > .nav-link {
+    width: 0px;
+  }
+  /* header ends */
+  .slider-section {
+    min-height: 740px;
+  }
+  /* acc */
+  .acc-body {
+    height: 220px;
+  }
+  /* acc end */
+  .foot-insta,
+  .foot-blog {
+    margin: 40px 0;
+  }
+  .foot-insta-pic {
+    width: 475px;
+  }
+}
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .common-start {
+    width: 100%;
+  }
+  /* header */
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-link.active::after,
+  .navbar-nav .show > .nav-link {
+    width: 50px;
+  }
+  .navbar-nav .nav-link .navbar-nav .nav-link.active::before,
+  .navbar-nav .show > .nav-link {
+    width: 0px;
+  }
+  /* header ends */
+  .slider-section {
+    min-height: 740px;
+  }
+  .foot-insta-pic {
+    width: 475px;
+  }
+}

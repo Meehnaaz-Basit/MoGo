@@ -1,0 +1,30 @@
+mapping : 
+
+{1600 - 1800 - 2100}
+
+xxl 1440 
+xl  1200
+lg  1024
+
+md   768
+
+sm   576
+col  320
+
+screen sizes:    |    xxl/xl/lg     |   md    |    sm/col
+
+
+
+
+ monteserrat  ---bold/regular--- logo / menu / header main / button / slider / hover / number / team-name 
+
+kaushan script --regular/-- header sub / testimonial-name
+
+roboto ---regular/light italic-- pera / testimnial-pera / team-profession
+
+f38181 --- pink
+fce38a --- yellow
+95e1d3 --- blue
+999999 --- ash pera
+
+
